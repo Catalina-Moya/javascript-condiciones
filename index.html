@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <h2>Hazle click a la imagen para agregarle un borde.</h2>
+    <div class="logo-cocacola">
+        <img src="./assets/img/cocacolalogo.png" alt="Coca Cola Logo" id="logo">
+    </div>
+
+    <h2>Puedes llevar hasta 10 sticker en total.</h2>
+    <div class="sticker-container">
+        <div class="sticker-content">
+            <img src="./assets/img/coca-cola1.png" alt="Coca Cola 1">
+            <input id="number1" type="number" value="0" />
+        </div>
+        <div class="sticker-content">
+            <img src="./assets/img/coca-cola2.png" alt="Coca Cola 2">
+            <input id="number2" type="number" value="0" />
+        </div>
+        <div class="sticker-content">
+            <img src="./assets/img/coca-cola3.png" alt="Coca Cola 3">
+            <input id="number3" type="number" value="0" />
+        </div>
+    </div>
+
+    <div class="btn-container">
+        <p id="mensaje"></p>
+        <button id="btn">Verificar</button>
+    </div>
+
+    <h2 class="texto-password">Ingresa un Password.</h2>
+
+    <div class="password-container">
+        <select id="password1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+        <select id="password2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+        <select id="password3">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+
+    <div class="btn-password">
+        <p id="mensajepassword"></p>
+        <button id="btnpassword">Ingresar</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
